@@ -150,3 +150,59 @@ section {
     border-radius: 10px;
     width: 30%;
   }
+
+.random{
+    background-color: white;
+    text-align: center;
+  }
+
+  .heading {
+    font-size: 30px;
+    padding-top: 2%;
+  }
+
+  .box {
+    height: 140px;
+    padding: 2px;
+    margin: 70px;
+    background: none;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .item {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #008CBA;
+    background: white;
+    border-radius: 10px;
+  }
+  .item p {
+    text-align: below;
+  }
+  .wrapper{
+    padding-left: 1px;
+    padding-right: 80%;
+    margin-top: auto;
+    margin-left: 50px;
+    margin-right: 60%;
+    box-sizing: auto;
+    padding: 1%;
+    padding-right: 4%;
+    color: black;
+    background-color: lightgray;
+  }
+  .paragraph {
+    background-color: lightgray;
+    text-align: center;
+    font-size: 40px;
+  }
+  .paragraph header {
+    text-align: right;
+    font-size: 40px;
+    color: black;
+
+  }
+  
