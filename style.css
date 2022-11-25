@@ -104,3 +104,49 @@ section {
     color: white;
     font-size: 40px;
 }
+
+  .container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 40%;
+    min-width: 600px;
+    color: white;
+    padding-top: 100px;
+    padding-left: 65px;
+  }
+  
+  .sub-container {
+    margin-left: 0px;
+  }
+  
+  .main-message {
+    width: 30em;
+    margin: 80px 20px 0 30px;
+  }
+  
+  .main-message h1 {
+    font-size: 3em;
+  }
+  
+  .main-message p {
+    text-align: left;
+    font-size: larger;
+    text-decoration: none;
+  }
+
+  .main-message button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: bold;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 30%;
+  }
