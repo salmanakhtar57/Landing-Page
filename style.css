@@ -1,7 +1,3 @@
-body {
-    background-color: #1F2937;
-}
-
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
 * {
   margin:0;
@@ -11,6 +7,9 @@ body {
   list-style:none;
 }
 
+.navbar {
+  background-color: #1F2937;
+}
 nav {
   height:80px;
   width:100%;
@@ -93,10 +92,10 @@ a.active,a:hover {
     left:0;
   }
 }
-section {
+/* section {
   background:#2c3e50;
   height:86vh;
-}
+} */
 
 section .header {
     color: white;
@@ -104,35 +103,45 @@ section .header {
 }
 
   .container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 40%;
-    min-width: 600px;
-    color: white;
-    padding-top: 100px;
-    padding-left: 65px;
-    margin-left: 0px;
-    padding-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    align-self: stretch;
+    padding: 3px 10%;
+    flex-grow: 2px;
+    align-items: center;
   }
-  
   .main-message {
+    flex-wrap: wrap;
+    flex: 1;
+    margin-right: 50px;
     width: 30em;
     margin: 80px 20px 0 30px;
-  }
-  
-  .main-message h1 {
-    font-size: 3em;
-  }
-  
-  .main-message p {
-    text-align: left;
-    font-size: larger;
-    text-decoration: none;
-  }
+}
 
-  .main-message button {
+.main-message h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.main-message p {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: left;
+    text-decoration: none;
+}
+
+.hero-img {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.hero-img img {
+  object-fit: contain;
+  max-width: 100%;
+}
+.main-message button {
     background-color: #008CBA;
     border: none;
     color: white;
@@ -206,6 +215,9 @@ section .header {
     padding: 3%;
     border-radius: 10px;
     color: white;
+    margin-top: 0%;
+    margin-left: 2px;
+    margin-right: 2px;
   }
 
   .action button {
@@ -228,6 +240,8 @@ section .header {
     text-align: center;
     color: white;
     font-size: 20px;
-    margin-top: 3%;
-    margin-bottom: 3%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    margin-bottom: none;
+    background-color: #1F2937;
   }
