@@ -92,10 +92,6 @@ a.active,a:hover {
     left:0;
   }
 }
-/* section {
-  background:#2c3e50;
-  height:86vh;
-} */
 
 section .header {
     color: white;
@@ -137,11 +133,7 @@ section .header {
     align-items: center;
     flex: 1;
 }
-.hero-img img {
-  object-fit: contain;
-  max-width: 600px;
-  height: 500px;
-}
+
 .main-message button {
     background-color: #008CBA;
     border: none;
@@ -156,7 +148,13 @@ section .header {
     border-radius: 10px;
     width: 30%;
   }
-
+  
+  .hero-img img {
+    object-fit: contain;
+    max-width: 600px;
+    height: 500px;
+  }
+  
 .random{
     background-color: white;
     text-align: center;
